@@ -1,5 +1,17 @@
 body {
+  background: #161B1F;
+  color: #fff;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+a {
+  color: #FF4DF2;
+  text-decoration: none;
+  transition: color ease 0.5s;
+}
+
+a:hover {
+  color: #D474FF;
 }
