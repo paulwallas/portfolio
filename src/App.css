@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+.me {
+  max-width: 100%;
+}
+
 .desc {
   font-size: 1.5rem;
   line-height: 1.875rem;
