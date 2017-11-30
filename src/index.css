@@ -1,17 +1,28 @@
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./avenir-next-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MyFont-reg';
+  src: local('MyFont'), url(./avenir-next-regular.woff) format('woff');
+}
+
 body {
-  background: #161B1F;
-  color: #fff;
+  background: #FCF3F3;
+  font-family: 'MyFont-reg', sans-serif;
+  font-size: calc(16px + 1vw);
+  line-height: calc(1.5em + 0.5vw);
+  color: #0C0C0C;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  text-align: center;
 }
 
-a {
-  color: #FF4DF2;
-  text-decoration: none;
-  transition: color ease 0.5s;
-}
-
-a:hover {
-  color: #D474FF;
+@media (min-width: 100em) {
+  body {
+    background: red;
+    font-size: 36px;
+    line-height: 63px;
+  }
 }
