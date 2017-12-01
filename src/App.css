@@ -4,11 +4,16 @@
   margin: 0 0 20%;
 }
 
+@media (min-width: 60em) {
+  .title {
+    margin-bottom: 10rem;
+  }
+}
+
 @media (min-width: 96em) {
   .title {
     font-size: 62px;
     line-height: 100px;
-    margin: 0 0 210px;
   }
 }
 
