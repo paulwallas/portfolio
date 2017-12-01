@@ -1,20 +1,78 @@
-.App {
-  background: linear-gradient(to bottom, #0A080E, #161B1F 90%);
-  padding: 2.5rem 1.25rem;   
-}
-
 .title {
-  font-size: 2.25rem;
-  line-height: 3rem;
-  margin: 0;
+  font-size: calc(1.5em + 1vw);
+  line-height: calc(1.3em + 1vw);
+  margin: 0 0 20%;
 }
 
-.me {
-  max-width: 100%;
+@media (min-width: 96em) {
+  .title {
+    font-size: 62px;
+    line-height: 100px;
+    margin: 0 0 210px;
+  }
 }
 
-.desc {
-  font-size: 1.5rem;
-  line-height: 1.875rem;
-  margin: 0;
+.fadeText {
+  -webkit-animation-name: fadeText;
+  animation-name: fadeText;
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+.fadeBackground {
+  -webkit-animation-name: fadeText;
+  animation-name: fadeText;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+.container {
+  background: #fff;
+  padding: 20vmax 1rem;
+  transition: padding ease;
+}
+
+@media (min-width: 96em) {
+  .container {
+    padding-top: 300px;
+    padding-bottom: 12%;
+  }
+}
+
+@keyframes fadeBackground {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeText {
+  0% {
+    -webkit-transform: translateY(2rem);
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+a {
+  color: #FF6B6B;
+  text-decoration: none;
+  transition: color ease 0.5s;
+}
+
+a:hover {
+  color: #FF6BC3;
 }
