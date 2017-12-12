@@ -53,12 +53,15 @@
 
 .about {
   background-color: #FCF1F1;
+  padding-left: 10vw;
+  padding-right: 10vw;
   text-align: left;
 }
 
 .aboutContent {
   font-size: 20px;
   line-height: 28px;
+  max-width: 890px;
 }
 @media (min-width: 96em) {
   .container {
