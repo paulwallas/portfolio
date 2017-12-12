@@ -8,6 +8,13 @@
   src: local('MyFont'), url(./avenir-next-regular.woff) format('woff');
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #FCF3F3;
   font-family: 'MyFont-reg', sans-serif;

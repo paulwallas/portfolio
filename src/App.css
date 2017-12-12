@@ -24,6 +24,9 @@
   animation-duration: 1.4s;
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
 }
 
 .fadeBackground {
@@ -37,10 +40,26 @@
 
 .container {
   background: #fff;
-  padding: 20vmax 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  padding: 0 1rem;
+  min-height: 96vh;
   transition: padding ease;
 }
 
+.about {
+  background-color: #FCF1F1;
+  text-align: left;
+}
+
+.aboutContent {
+  font-size: 20px;
+  line-height: 28px;
+}
 @media (min-width: 96em) {
   .container {
     padding-top: 300px;
