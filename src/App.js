@@ -14,9 +14,18 @@ class App extends Component {
         <div className="container about">
           <div className="fadeText">
               <h2 className="subtitle">Nice to meet you.</h2>
-              <p className="aboutContent">Hi, I’m Paul and I’m currently Head of Design at RightIndem. <br /><br />
+              <p className="acontent">Hi, I’m Paul and I’m currently Head of Design at RightIndem. <br /><br />
 
 I have a natural love for user interaction and user psychology. I’m intrigued as to how we, as users, make decisions and what are our emotive drivers. My aim is to understand, have empathy and deliver delightful experiences to all users.</p>
+          </div>
+        </div>
+        <div className="container work">
+          <div className="fadeText">
+              <h2 className="subtitle">How I approach my work.</h2>
+              <p className="acontent">I begin each task by identifying the user persona and user environment. Once understood, I place my mind-set in that of the user, re-enacting their end-to-end journey. This allows me to identify potential barriers to entry, user pain-points, additional actors and the overall context of their journey.
+              <br /><br />
+              Starting with low fidelity mocks and animated interactions, I begin the design of the optimal journey. Liaising with BAs and Development, advocating good user experience, the journey is refined to a highfidelity state and communicated to the wider team.
+              </p>
           </div>
         </div>
       </div>

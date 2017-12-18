@@ -58,7 +58,14 @@
   text-align: left;
 }
 
-.aboutContent {
+.work {
+  background-color: #EDF6F1;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left;
+}
+
+.acontent {
   font-size: 20px;
   line-height: 28px;
   max-width: 890px;
