@@ -40,14 +40,15 @@
 
 .container {
   background: #fff;
+  border-bottom: solid 0.5rem #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: stretch;
   align-items: center;
-  padding: 0 1rem;
-  min-height: 96vh;
+  padding: 4rem 1rem;
+  min-height: 94vh;
   transition: padding ease;
 }
 
