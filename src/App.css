@@ -1,19 +1,124 @@
-.title {
-  font-size: calc(1.5em + 1vw);
-  line-height: calc(1.3em + 1vw);
-  margin: 0 0 20%;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'avenir-bold';
+  src: local('MyFont'), url(./avenir-next-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'avenir';
+  src: local('MyFont'), url(./avenir-next-regular.woff) format('woff');
+}
+
+a {
+  color: #FF6B6B;
+  text-decoration: none;
+  transition: color ease 0.5s;
+}
+
+a:hover {
+  color: #FF6BC3;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FCF3F3;
+  color: #0C0C0C;
+  font-family: 'avenir', helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.75rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 @media (min-width: 60em) {
-  .title {
-    margin-bottom: 10rem;
+  body {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
   }
 }
 
-@media (min-width: 96em) {
-  .title {
-    font-size: 62px;
-    line-height: 100px;
+.container {
+  align-content: stretch;
+  align-items: center;
+  background: #fff;
+  border-bottom: solid 0.5rem #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 94vh;
+  padding: 4rem 1.25rem;
+  transition: padding ease;
+}
+
+.title {
+  font-family: 'avenir';
+  font-size: 1.875em;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin: 0 0 4rem;
+}
+
+.subtitle {
+  font-family: 'avenir-bold';
+  font-size: 1.5em;
+  line-height: 2rem;
+  margin: 0 0 2.5rem;
+}
+
+@media (min-width: 60em) {
+  .content {
+    max-width: 52rem;
   }
 }
 
@@ -38,44 +143,16 @@
   animation-timing-function: ease;
 }
 
-.container {
-  background: #fff;
-  border-bottom: solid 0.5rem #fff;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch;
-  align-items: center;
-  padding: 4rem 1rem;
-  min-height: 94vh;
-  transition: padding ease;
+.about, .work {
+  text-align: left;
 }
 
 .about {
   background-color: #FCF1F1;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  text-align: left;
 }
 
 .work {
   background-color: #EDF6F1;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  text-align: left;
-}
-
-.acontent {
-  font-size: 20px;
-  line-height: 28px;
-  max-width: 890px;
-}
-@media (min-width: 96em) {
-  .container {
-    padding-top: 300px;
-    padding-bottom: 12%;
-  }
 }
 
 @keyframes fadeBackground {
@@ -100,14 +177,4 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-a {
-  color: #FF6B6B;
-  text-decoration: none;
-  transition: color ease 0.5s;
-}
-
-a:hover {
-  color: #FF6BC3;
 }
