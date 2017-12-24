@@ -16,7 +16,7 @@ class App extends Component {
               <h2 className="subtitle">Nice to meet you.</h2>
               <p className="content">Hi, I’m Paul and I’m Head of Design at RightIndem.
               <br /><br />
-              I have a natural love for user interaction and user psychology. I’m intrigued as to how we, as users, make decisions and what are our emotive drivers. My aim is to understand, have empathy and deliver delightful experiences to all users.
+              I have a natural love for user interaction and user psychology. I’m intrigued as to how we, as users, make decisions and what are our emotive drivers. My aim is to understand, empathise and deliver delightful experiences to all users.
               <br /><br />
               View my <a href="https://www.paulwallas.com/Paul_Wallas_Resume.pdf">résumé.</a>
               </p>
