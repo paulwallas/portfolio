@@ -18,7 +18,7 @@ class App extends Component {
               <br /><br />
               I have a natural love for user interaction and user psychology. I’m intrigued as to how we, as users, make decisions and what are our emotive drivers. My aim is to understand, have empathy and deliver delightful experiences to all users.
               <br /><br />
-              View my <a href="http://www.paulwallas.com/Paul_Wallas_Resume.pdf">résumé.</a>
+              View my <a href="https://www.dropbox.com/s/nn90n0j6zbjxjcr/Paul_Wallas_Resume.pdf?dl=0">résumé.</a>
               </p>
           </div>
         </div>
