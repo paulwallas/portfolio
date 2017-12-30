@@ -27,7 +27,9 @@ class App extends Component {
               <h2 className="subtitle">How I approach work.</h2>
               <p className="content">I begin each task by identifying the user persona and user environment. Once understood, I place my mind-set in that of the user, re-enacting their end-to-end journey. This allows me to identify potential barriers to entry, user pain-points, additional actors and the context of the journey.
               <br /><br />
-              Starting with low fidelity mocks and animated interactions, I begin the design of the optimal journey. Liaising with BAs and Development, advocating good user experience, the journey is refined to a highfidelity state and communicated to the wider team.
+              Starting with low fidelity mocks and animated interactions, I begin the design of the optimal journey. Liaising with the client, BAs and development team, advocating good user experience, the journey is refined to a highfidelity state and communicated to the wider team.
+              <br /><br />
+              I have created work for <a href="https://www.paulwallas.com/work_admiral.pdf">Admiral</a>, <a href="https://www.paulwallas.com/work_deloitte.pdf">Deloitte</a> and <a href="https://www.paulwallas.com/work_xlc.pdf">XLC</a>
               </p>
           </div>
         </div>
