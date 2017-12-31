@@ -29,7 +29,7 @@ class App extends Component {
               <br /><br />
               Starting with low fidelity mocks and animated interactions, I begin the design of the optimal journey. Liaising with the client, BAs and development team, advocating good user experience, the journey is refined to a highfidelity state and communicated to the wider team.
               <br /><br />
-              I have created work for <a href="https://www.paulwallas.com/work_admiral.pdf">Admiral</a>, <a href="https://www.paulwallas.com/work_deloitte.pdf">Deloitte</a> and <a href="https://www.paulwallas.com/work_xlc.pdf">XLC</a>
+              I have created work for <a href="https://www.paulwallas.com/work_admiral.pdf">Admiral</a>, <a href="https://www.paulwallas.com/work_deloitte.pdf">Deloitte</a> and <a href="https://www.paulwallas.com/work_xlc.pdf">XLC</a> while also producing work for local deveopment friends <a href="https://www.paulwallas.com/glass_umbrella.pdf">Glass Umbrella</a>.
               </p>
           </div>
         </div>

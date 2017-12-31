@@ -87,6 +87,13 @@ body {
   }
 }
 
+@media (min-width: 110em) {
+  body {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+}
+
 .container {
   align-content: stretch;
   align-items: center;
