@@ -53,7 +53,7 @@ table {
 }
 
 a {
-  color: #FF6B6B;
+  color: #4C6CE0;
   text-decoration: none;
   transition: color ease 0.5s;
 }
@@ -70,109 +70,174 @@ html {
 }
 
 body {
-  background: #FCF3F3;
+  background: #FFF;
   color: #0C0C0C;
   font-family: 'avenir', helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 1.75rem;
+  font-size: 16px;
   margin: 0;
-  padding: 0;
+  padding: 1.5rem;
+}
+
+.social {
+  line-height: 1.4;
+  margin-bottom: 6.25em;
+  overflow: hidden;
+}
+
+.social li { 
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.social li a {
+  color: #0C0C0C;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.social li a:hover {
+  color: #0C0C0C;
+  opacity: 1;
+}
+
+h1, h2 {
+  font-size: 1.75em;
+  font-family: 'avenir-bold';
+  font-weight: 300;
+  line-height: 1.36;
+  margin-bottom: 0.5rem;
+}
+
+.about-me {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 6.25em;
+}
+
+.content {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.foot {
+  margin-bottom: calc(60px - 1.25rem);
+}
+
+.workList {
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden; 
+  white-space: nowrap;
+}
+
+.work {
+  color: #FFF;
+  font-size: 0.75rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: 60px;
+  overflow: hidden;
+  padding: 3.75rem 0;
   text-align: center;
 }
 
-@media (min-width: 60em) {
-  body {
-    font-size: 1.5rem;
-    line-height: 2.125rem;
-  }
+.work img {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  width: 280px;
 }
 
-@media (min-width: 110em) {
+.blue {
+  background-image: linear-gradient(-180deg, #5472D8 0%, #684EB5 100%);
+}
+
+.purple {
+  background-image: linear-gradient(-180deg, #A43898 0%, #994DBC 100%);
+  margin-top: 60px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
   body {
+    padding: 2.4rem;
+  }
+
+  .social {
+    margin-bottom: 11.25rem;
+  }
+
+  .social li {
+    font-size: 1.25em;
+    margin-right: 2em;
+  }
+
+  h1, h2 {
+    font-size: 2rem;
+  }
+
+  .about-me {
     font-size: 1.75rem;
-    line-height: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 11.25rem;
+    max-width: 580px;
   }
-}
 
-.container {
-  align-content: stretch;
-  align-items: center;
-  background: #fff;
-  border-bottom: solid 0.5rem #fff;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  min-height: 94vh;
-  padding: 4rem 1.25rem;
-  transition: padding ease;
-}
+  .work {
+    margin-left: 0;
+    margin-right: -2.4rem;
+    margin-bottom: 4.25
+  }
 
-.title {
-  font-family: 'avenir';
-  font-size: 1.875em;
-  font-weight: 500;
-  line-height: 1.25em;
-  margin: 0 0 4rem;
-}
-
-.subtitle {
-  font-family: 'avenir-bold';
-  font-size: 1.5em;
-  line-height: 2rem;
-  margin: 0 0 2.5rem;
-}
-
-@media (min-width: 60em) {
   .content {
-    max-width: 52rem;
+    font-size: 1.5rem;
+    max-width: 620px;
   }
 }
 
-.fadeText {
-  -webkit-animation-name: fadeText;
-  animation-name: fadeText;
+@media (min-width: 1020px) {
+  .about-me {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin-bottom: 4.75rem;
+    max-width: 580px;
+  }
+}
+
+
+/* The fun animations */
+.fadeUp, .fadeIn {
+  -webkit-animation-name: fadeUp;
+  animation-name: fadeUp;
   -webkit-animation-duration: 1.4s;
   animation-duration: 1.4s;
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
-  order: 0;
-  flex: 0 1 auto;
-  align-self: auto;
 }
 
-.fadeBackground {
-  -webkit-animation-name: fadeText;
-  animation-name: fadeText;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
-.about, .work {
-  text-align: left;
-}
-
-.about {
-  background-color: #FCF1F1;
-}
-
-.work {
-  background-color: #EDF6F1;
-}
-
-@keyframes fadeBackground {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeText {
+@keyframes fadeUp {
   0% {
     -webkit-transform: translateY(2rem);
     transform: translateY(2rem);
@@ -182,6 +247,16 @@ body {
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
     opacity: 1;
   }
 }

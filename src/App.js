@@ -5,34 +5,75 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container intro">
-          <div className="fadeText">
-              <h1 className="title">I design delightful experiences.<br />Always.</h1>
-              <p className="content">Follow me on <a href="https://twitter.com/paulwallas">twitter</a> and <a href="https://medium.com/@paulwallas">medium</a>.</p>
-          </div>
+        <nav className="fadeIn">
+          <ul className="social">
+            <li><a href="https://twitter.com/paulwallas">twitter</a></li>
+            <li><a href="https://medium.com/@paulwallas">medium</a></li>
+            <li><a href="https://www.instagram.com/paulwallas/">instagram</a></li>
+          </ul>
+        </nav>
+
+        <div className="fadeUp">
+          <header>
+            <h1>Hi, I'm Paul</h1>
+            <p className="about-me">Head of Design at <a href="http://www.rightindem.com">RightIndem</a><br /><br />
+            I have a natural love for user interaction and user psychology.</p>
+          </header>
+
+          <section className="work blue">
+            <div style={{ overflow: 'hidden'}}>
+              <ul className="workList">
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-kitchen-app.png?raw=true" alt="Work Example" />
+                  <p>Kitchen Selector iOS App</p>
+                </li>
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-health-app.png?raw=true" alt="Work Example" />
+                  <p>Health-tech Reporting Web App</p>
+                </li>
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work_cp.png?raw=true" alt="Work Example" />
+                  <p>Care Partner Website</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <h2>How I Work</h2>
+          <p className="content">Users and their emotional needs are my starting point for every project.<br /><br />
+Identifying user demographics and user environments, I begin to design the optimal journey via low fidelity, animated mocks.<br /><br />
+Liaising with clients, BAs and development teams, advocating good user experience, I begin to test the journey, slowly building towards a high fidelity visual.</p>
+
+          <section className="work purple">
+            <div style={{ overflow: 'hidden'}}>
+              <ul className="workList">
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-bump.png?raw=true" alt="Work Example" />
+                  <p>Roadside Assist iOS App</p>
+                </li>
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-admiral.png?raw=true" alt="Work Example" />
+                  <p>Admiral Vehicle Valuation Web App</p>
+                </li>
+                <li style={{ display: 'inline-block', width: '375px'}}>
+                  <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-deloitte.png?raw=true" alt="Work Example" />
+                  <p>Deloitte Claims Management Web App</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <p className="content foot">I have created work for brands such as Admiral, Deloitte and XL Catlin while also producing work for local deveopment friends Glass Umbrella.<br /><br />
+          If you'd like to see more of my work or view my CV, please <a href="mailto:paulwallas@me.com">get in touch</a></p>
         </div>
-        <div className="container about">
-          <div className="fadeText">
-              <h2 className="subtitle">Nice to meet you.</h2>
-              <p className="content">Hi, I’m Paul and I’m Head of Design at RightIndem.
-              <br /><br />
-              I have a natural love for user interaction and user psychology. I’m intrigued as to how we, as users, make decisions and what are our emotive drivers. My aim is to understand, empathise and deliver delightful experiences to all users.
-              <br /><br />
-              View my <a href="https://www.paulwallas.com/Paul_Wallas_Resume.pdf">résumé.</a>
-              </p>
-          </div>
-        </div>
-        <div className="container work">
-          <div className="fadeText">
-              <h2 className="subtitle">How I approach work.</h2>
-              <p className="content">I begin each task by identifying the user persona and user environment. Once understood, I place my mind-set in that of the user, re-enacting their end-to-end journey. This allows me to identify potential barriers to entry, user pain-points, additional actors and the context of the journey.
-              <br /><br />
-              Starting with low fidelity mocks and animated interactions, I begin the design of the optimal journey. Liaising with the client, BAs and development team, advocating good user experience, the journey is refined to a highfidelity state and communicated to the wider team.
-              <br /><br />
-              I have created work for <a href="https://www.paulwallas.com/work_admiral.pdf">Admiral</a>, <a href="https://www.paulwallas.com/work_deloitte.pdf">Deloitte</a> and <a href="https://www.paulwallas.com/work_xlc.pdf">XLC</a> while also producing work for local deveopment friends <a href="https://www.paulwallas.com/work_glass_umbrella.pdf">Glass Umbrella</a>.
-              </p>
-          </div>
-        </div>
+
+
+
+
+
+
+
+
       </div>
     );
   }
