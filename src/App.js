@@ -17,21 +17,21 @@ class App extends Component {
           <header>
             <h1>Hi, I'm Paul</h1>
             <p className="about-me">Head of Design at <a href="http://www.rightindem.com">RightIndem</a><br /><br />
-            I have a natural love for user interaction and user psychology.</p>
+            I specialise in UI &amp; UX design, interested in how user psychology impacts interaction.</p>
           </header>
 
           <section className="work blue">
             <div style={{ overflow: 'hidden'}}>
               <ul className="workList">
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-kitchen-app.png?raw=true" alt="Work Example" />
                   <p>Kitchen Selector iOS App</p>
                 </li>
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-health-app.png?raw=true" alt="Work Example" />
                   <p>Health-tech Reporting Web App</p>
                 </li>
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work_cp.png?raw=true" alt="Work Example" />
                   <p>Care Partner Website</p>
                 </li>
@@ -47,15 +47,15 @@ Liaising with clients, BAs and development teams, advocating good user experienc
           <section className="work purple">
             <div style={{ overflow: 'hidden'}}>
               <ul className="workList">
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-bump.png?raw=true" alt="Work Example" />
                   <p>Roadside Assist iOS App</p>
                 </li>
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-admiral.png?raw=true" alt="Work Example" />
                   <p>Admiral Vehicle Valuation Web App</p>
                 </li>
-                <li style={{ display: 'inline-block', width: '375px'}}>
+                <li style={{ display: 'inline-block'}}>
                   <img src="https://github.com/paulwallas/portfolio/blob/master/public/work-deloitte.png?raw=true" alt="Work Example" />
                   <p>Deloitte Claims Management Web App</p>
                 </li>
