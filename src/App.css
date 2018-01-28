@@ -225,6 +225,10 @@ h1, h2 {
     font-size: 1.5rem;
     max-width: 720px;
   }
+
+  .work img {
+    width: 340px;
+  }
 }
 
 
