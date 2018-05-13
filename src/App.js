@@ -62,7 +62,7 @@ class App extends Component {
 
             <h3 className="title">About me</h3>
             <p>Over the years, I’ve refocused my interest from visual design to GUI design principles and design psychology. Understanding how and why users interact with design, their mental models, their expectations and behaviours enables me to produce work that not only satisfies their needs but further drives my thirst for knowledge.<br /><br />
-            Outside of work I will often be attending design meet-ups and design conferences, writing on Medium or posting on Dribbble. My passions outside of work include football, F1, food and ale, especially the local food and drink festivals.</p>
+            Outside of work I will often be attending design meet-ups and design conferences, writing on <a href="https://medium.com/@paulwallas">Medium</a> or posting on <a href="https://dribbble.com/paulwallas">Dribbble</a>. My passions outside of work include football, F1, food and ale, especially the local food and drink festivals.</p>
 
           </div>
         </section>
