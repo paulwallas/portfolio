@@ -29,7 +29,7 @@ class App extends Component {
             <h3 className="title">Career history</h3>
             <ul className="careerHistory">
               <li>
-                  <p className="careerPosition"><a href="https://www.rightindem.com">Head of Design at RightIdem</a></p>
+                  <p className="careerPosition"><a href="https://www.rightindem.com">Head of Design at RightIndem</a></p>
                   <p className="careerDate">Aug 2016 - Present</p>
                   <p className="careerDescription">Working between Business Analysts and the Development team, I research our users to understand their emotional needs, requirements and product expectations. This is translated into user personas from which I build user stories and early user journeys, often at the <a href="https://medium.com/rightindem-design-team/reasons-why-every-design-team-should-have-a-whiteboard-bb6db7da0686">whiteboard</a>. From here I begin to finalise journeys, collaborating with the team to ensure the optimal solution is defined.</p>
               </li>
