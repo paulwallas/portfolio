@@ -13,6 +13,7 @@ class App extends Component {
                 <li><a href="https://twitter.com/paulwallas">twitter</a></li>
                 <li><a href="https://medium.com/@paulwallas">medium</a></li>
                 <li><a href="https://www.instagram.com/paulwallas/">instagram</a></li>
+                <li><a href="https://github.com/paulwallas/portfolio/blob/master/portfolio.pdf" target="_blank">my work</a></li>
               </ul>
             </nav>
 
@@ -51,7 +52,7 @@ class App extends Component {
               <li>
                   <p className="careerPosition"><a href="https://www.daykinandstorey.co.uk">Junior Designer at Daykin &amp; Story</a></p>
                   <p className="careerDate">Jun 2006 - Aug 2006</p>
-                  <p className="careerDescription">I aim to recognise and understand users’ emotions, commited to solving problems and delivering solutions in a creative and elegant way. I’m driven to help people and teams achieve their goals.</p>
+                  <p className="careerDescription">Working as a junior designer I assisted the web design team helping produce navigation bars, sprite images, client branding and poster illustrations.</p>
               </li>
             </ul>
           </div>
