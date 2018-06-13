@@ -29,7 +29,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">In my role as a user experience designer, I aim to understand users’ emotion, contextual environment, requirements and product expectations. Once I have established these they’re absorbed into my design process. My aim is to improve their experience by tailoring the product to match the user’s explicit and implicit needs.<br /><br />
+            <p className="info">In my role as a user experience designer, I aim to understand users’ emotion, contextual environment, requirements and product expectations. Once established they’re absorbed into my design process. My aim is to improve their experience by tailoring the product to match the user’s explicit and implicit needs.<br /><br />
 I’m currently working as Head of UI/UX Design at <a href="https://rightindem.com">RightIndem.</a></p>
         </section>
 
