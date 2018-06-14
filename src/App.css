@@ -91,13 +91,24 @@ a:hover {
   margin: 2em 0;
 }
 
-.workItem {
+.workItem1 {
   display: inline-block;
   vertical-align: top;
+  width: 66.6666%;
+}
+
+.workItem2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3333%;
+}
+
+.doubleCol .workItem1, .doubleCol .workItem2 {
   width: 50%;
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -135,9 +146,21 @@ img {
     margin: 2.5em 0;
   }
 
-  .workItem {
-    max-width: 1200px;
+  .workItem1 {
     width: 33.3333%;
+  }
+
+  .workItem2 {
+    width: 66.6666%;
+  }
+
+  .workItem2 img {
+    display: inline-block;
+    max-width: 50%;
+  }
+
+  .doubleCol .workItem1 img, .doubleCol .workItem2 img {
+    max-width: 100%;
   }
 
   /* Wrappers */
