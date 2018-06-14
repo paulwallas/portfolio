@@ -1,12 +1,16 @@
 {
-  "main.css": "static/css/main.8a9e4039.css",
-  "main.css.map": "static/css/main.8a9e4039.css.map",
-  "main.js": "static/js/main.29655c39.js",
-  "main.js.map": "static/js/main.29655c39.js.map",
-  "static/media/admiral-app.png": "static/media/admiral-app.1c2ef705.png",
-  "static/media/bump-app.png": "static/media/bump-app.68978721.png",
-  "static/media/care-partner-website.png": "static/media/care-partner-website.3c441129.png",
-  "static/media/health-app.png": "static/media/health-app.f684d0b4.png",
+  "main.css": "static/css/main.65906a08.css",
+  "main.css.map": "static/css/main.65906a08.css.map",
+  "main.js": "static/js/main.2afbcea9.js",
+  "main.js.map": "static/js/main.2afbcea9.js.map",
+  "static/media/admiral-app.png": "static/media/admiral-app.afe1325c.png",
+  "static/media/bump-app.png": "static/media/bump-app.54f01ed1.png",
+  "static/media/care-partner-website.png": "static/media/care-partner-website.54955ab0.png",
+  "static/media/deloitte-app.png": "static/media/deloitte-app.d6352dfa.png",
+  "static/media/drank.png": "static/media/drank.c830b9bc.png",
   "static/media/me-at-whiteboard.png": "static/media/me-at-whiteboard.b56485b3.png",
-  "static/media/money-app.png": "static/media/money-app.0b529a68.png"
+  "static/media/money-app.png": "static/media/money-app.88ac0d39.png",
+  "static/media/parkr.png": "static/media/parkr.7f970471.png",
+  "static/media/rightindem-website.png": "static/media/rightindem-website.fd2b114a.png",
+  "static/media/watch-it-later.png": "static/media/watch-it-later.c78b7735.png"
 }
