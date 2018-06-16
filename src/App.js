@@ -39,6 +39,9 @@ class App extends Component {
 
         <section className="wrapperOuter fadeIn">
           <div className="work doubleCol">
+            <div className="wrapperInner">
+              <h3>Web Applications</h3>
+            </div>
             <div className="workItem1">
             <img src={deloitte} alt="deloitte-app"/>
             </div>
@@ -54,6 +57,9 @@ class App extends Component {
 
         <section className="wrapperOuter fadeIn">
           <div className="work doubleCol">
+            <div className="wrapperInner">
+              <h3>Website / Brochureware</h3>
+            </div>
             <div className="workItem1">
             <img src={carePartner} alt="care-partner-website"/>
             </div>
@@ -69,6 +75,9 @@ class App extends Component {
 
         <section className="wrapperOuter fadeIn">
           <div className="work">
+            <div className="wrapperInner">
+              <h3>iOS &amp; tvOS Icons</h3>
+            </div>
             <div className="workItem1">
             <img src={watchLater} alt="watch-it-later-tvos-icon"/>
             </div>
