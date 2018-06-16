@@ -64,7 +64,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">I’m skilled across the entire design domain having produced web applications, websites, iOS apps, branding guidelines, off-screen material and illustrations in my career to date.</p>
+            <p className="info">I’m skilled across many design disciplines having produced web applications, websites, iOS apps, branding guidelines, off-screen material and illustrations.</p>
         </section>
 
         <section className="wrapperOuter fadeIn">
@@ -80,8 +80,8 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">In my role as a user experience designer, I aim to understand users’ emotion, contextual environment, requirements and product expectations. Once established they’re absorbed into my design process. My aim is to improve their experience by tailoring the product to match the user’s explicit and implicit needs.<br /><br />
-I’m currently working as Head of UI/UX Design at <a href="https://rightindem.com">RightIndem.</a></p>
+            <p className="info">In my role as Head of UI/UX Design at <a href="https://rightindem.com">RightIndem</a> I aim to understand users’ emotion, research their requirements and product expectations. Once established they’re absorbed into my design process. My aim is to improve their experience by tailoring the product to match the user’s explicit and implicit needs.<br /><br />
+            I develop both low-fi, high-fi and interactive mock-ups using Sketch, Balsamiq and office <a href="https://medium.com/rightindem-design-team/reasons-why-every-design-team-should-have-a-whiteboard-bb6db7da0686">whiteboards</a> and these are shared with the wider team for early collaboration and visibility. From here I develop high quality aesthetic designs and interactions ready for effort estimation. I'm able to support the development with the implementation of these designs into the application.</p>
         </section>
 
       </div>
