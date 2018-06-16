@@ -198,6 +198,11 @@ img {
     line-height: 2rem;
   }
 
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   /* Work */
   .work {
     margin: 5em 0;
