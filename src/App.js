@@ -18,7 +18,7 @@ class App extends Component {
         
         <section className="wrapperInner fadeIn">
             <h1 className="title">I’m Paul, a passionate user experience and user interface designer.</h1>
-            <p className="info">You can find me on <a href="https://twitter.com/paulwallas">twitter</a>, <a href="https://medium.com/@paulwallas">medium</a> and <a href="https://www.instagram.com/paulwallas/">instagram</a>. If you’d like to learn about my career to date read my <a href="https://goo.gl/7oj8Yg">cv</a>.</p>
+            <p className="info">You can find me on <a href="https://twitter.com/paulwallas">twitter</a>, <a href="https://medium.com/@paulwallas">medium</a> and <a href="https://www.instagram.com/paulwallas/">instagram</a>.</p>
         </section>
 
         <section className="wrapperOuter fadeIn">
@@ -34,7 +34,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">I have produced work for global market leaders such as Deloitte, Admiral and XLCatlin, having the ability to meet and communicate design ideas to key client stakeholders.</p>
+            <p className="info">I have produced work for global market leaders such as Deloitte, Admiral and XLCatlin. I'm also passionate about producing design material for local friends; <a href="https://twitter.com/glassumbrellaco">Glass Umbrella</a>, <a href="https://twitter.com/nottsdev">Notts Dev Workshop</a> and <a href="https://twitter.com/cococheesecakes">cococheesecakes</a>.</p>
         </section>
 
         <section className="wrapperOuter fadeIn">
@@ -52,7 +52,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">I’m experienced creating white-label interfacing products and products that adhere to existing brand guidelines. I have created, maintained and evolved several brands throughout my career.</p>
+            <p className="info">I have over 10 years of experience working across all disciplines of the design domain. 5 years ago my passion diverted my focus into the user experience and user interface element of design, understanding user psychology and decision making and how this effects product interaction.</p>
         </section>
 
         <section className="wrapperOuter fadeIn">
@@ -70,7 +70,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">I’m skilled across many design disciplines having produced web applications, websites, iOS apps, branding guidelines, off-screen material and illustrations.</p>
+            <p className="info">I’m skilled across many design disciplines having produced web applications, websites, iOS apps, branding guidelines, off-screen material and illustrations. I'm comfortable using Sketch, Adobe Xd, Balsamiq, Photoshop, Illustrator and Indesign.</p>
         </section>
 
         <section className="wrapperOuter fadeIn">
@@ -89,8 +89,7 @@ class App extends Component {
         </section>
 
         <section className="wrapperInner fadeIn">
-            <p className="info">In my role as Head of UI/UX Design at <a href="https://rightindem.com">RightIndem</a> I aim to understand users’ emotion, research their requirements and product expectations. Once established they’re absorbed into my design process. My aim is to improve their experience by tailoring the product to match the user’s explicit and implicit needs.<br /><br />
-            I develop both low-fi, high-fi and interactive mock-ups using Sketch, Balsamiq and office <a href="https://medium.com/rightindem-design-team/reasons-why-every-design-team-should-have-a-whiteboard-bb6db7da0686">whiteboards</a> and these are shared with the wider team for early collaboration and visibility. From here I develop high quality aesthetic designs and interactions ready for effort estimation. I'm able to support the development with the implementation of these designs into the application.</p>
+            <p className="info">Currently working as Head of UI/UX Design at <a href="https://rightindem.com">RightIndem</a>, I lead a team of designers creating responsive web applications for the insurance tech industry.<br /><br /> My role is to understand users’ emotion, research their requirements and learn their product expectations. Once established they’re absorbed into my design process with the aim of improving their experience by tailoring our product to match their explicit and implicit needs.</p>
         </section>
 
       </div>
