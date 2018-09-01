@@ -58,7 +58,7 @@ body {
   letter-spacing: -0.2px;
   line-height: 1.375em;
   margin: 0;
-  padding: 0 0 3em;
+  padding: 0;
 }
 
 /* Typography */
@@ -91,44 +91,6 @@ a:hover {
   color: #FF6BC3;
 }
 
-/* Work */
-.work {
-  margin: 2em 0;
-}
-
-.workItem1 {
-  display: inline-block;
-  vertical-align: top;
-  width: 66.6666%;
-}
-
-.workItem2 {
-  display: inline-block;
-  vertical-align: top;
-  width: 33.3333%;
-}
-
-.doubleCol .workItem1, .doubleCol .workItem2 {
-  width: 50%;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-
-/* Wrappers */
-.wrapperOuter {
-  margin: auto;
-  max-width: 1120px
-}
-
-.wrapperInner {
-  margin: auto;
-  max-width: 920px;
-  padding: 0 1.5em;
-}
 
 /* Responsive */
 @media (min-width: 600px) {
@@ -145,46 +107,9 @@ img {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-  }
-
-  /* Work */
-  .work {
-    margin: 2.5em 0;
-  }
-
-  .workItem1 {
-    width: 33.3333%;
-  }
-
-  .workItem2 {
-    width: 66.6666%;
-  }
-
-  .workItem2 img {
-    display: inline-block;
-    max-width: 50%;
-  }
-
-  .doubleCol .workItem1 img, .doubleCol .workItem2 img {
-    max-width: 100%;
-  }
-
-  /* Wrappers */
-  .wrapperInner {
-    max-width: 608px;
-    padding: 0;
-  }
 }
 
 @media (min-width: 1024px) {
-  body {
-    padding-bottom: 5em;
-  }
-
   /* Typography */
   .title {
     font-size: 2.75rem;
@@ -197,28 +122,12 @@ img {
     font-size: 1.5rem;
     line-height: 2.125rem;
   }
-
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  /* Work */
-  .work {
-    margin: 5em 0;
-  }
-  
-  /* Wrappers */
-  .wrapperInner {
-    max-width: 920px;
-    padding: 0;
-  }
 }
 
 
 
 /* The fun animations */
-.fadeUp, .fadeIn {
+.fadeIn {
   -webkit-animation-name: fadeUp;
   animation-name: fadeUp;
   -webkit-animation-duration: 1.4s;
@@ -246,20 +155,6 @@ img {
   animation-duration: 1s;
 }
 
-@keyframes fadeUp {
-  0% {
-    -webkit-transform: translateY(2rem);
-    transform: translateY(2rem);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -268,4 +163,23 @@ img {
   100% {
     opacity: 1;
   }
+}
+
+.wrapper {
+  align-content: stretch;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 68vh;
+  justify-content: center;
+  margin: auto;
+  max-width: 950px;
+  padding: 1rem;
+}
+
+.flex-item {
+  align-self: auto;
+  flex: 0 1 auto;
+  order: 0;
 }
