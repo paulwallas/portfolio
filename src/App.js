@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './me.png';
 import blob from './blob.svg';
-import workSampleName from './work-sample-name.png';
 import workSampleAdmiral1 from './work-sample-admiral1.png';
 import workSampleAdmiral2 from './work-sample-admiral2.png';
 import workSampleING1 from './work-sample-ing1.png';
@@ -25,7 +24,7 @@ function App() {
       <section className="about-me">
         <img src={blob} className="blob blob-spin" />
         <div className="about-container">
-          <p><b>About me</b>
+          <p><b>About</b>
               <br /><br /> 
               I have no more than 10 years of experience working with clients across a multitude of industries, delivering products and interfaces that are intuitive, elegant, coherent and user focused - whilst meeting business and customer requirements.
               <br /><br />
