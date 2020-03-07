@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.d251c4dd.css",
-  "main.css.map": "static/css/main.d251c4dd.css.map",
-  "main.js": "static/js/main.8891a9fd.js",
-  "main.js.map": "static/js/main.8891a9fd.js.map"
+  "main.css": "static/css/main.43feaa07.css",
+  "main.css.map": "static/css/main.43feaa07.css.map",
+  "main.js": "static/js/main.c2d5b379.js",
+  "main.js.map": "static/js/main.c2d5b379.js.map",
+  "static/media/blob.svg": "static/media/blob.a41988a9.svg",
+  "static/media/me.png": "static/media/me.e2a7d278.png",
+  "static/media/work-sample-admiral1.png": "static/media/work-sample-admiral1.c0f55cdf.png",
+  "static/media/work-sample-admiral2.png": "static/media/work-sample-admiral2.caeaf81e.png",
+  "static/media/work-sample-cp1.png": "static/media/work-sample-cp1.4804e732.png",
+  "static/media/work-sample-cp2.png": "static/media/work-sample-cp2.91e992fd.png",
+  "static/media/work-sample-ing1.png": "static/media/work-sample-ing1.3f16eeb6.png",
+  "static/media/work-sample-ing2.png": "static/media/work-sample-ing2.1893ad2e.png",
+  "static/media/work-sample-ri.png": "static/media/work-sample-ri.8a90076a.png"
 }
