@@ -27,7 +27,7 @@ function App() {
         <div className="about-container">
           <p><b>About me</b>
               <br /><br /> 
-              I have more than 10 years of experience working with clients across a multitude of industries, delivering products and interfaces that are intuitive, elegant, coherent and user focused - whilst meeting business and customer requirements.
+              I have no more than 10 years of experience working with clients across a multitude of industries, delivering products and interfaces that are intuitive, elegant, coherent and user focused - whilst meeting business and customer requirements.
               <br /><br />
 I’ve produced visual interfaces, customer journey maps, user personas and conducted several user workshops with organisations and companies both big and small which include the NHS, Admiral, AXA Insurance and NN.
               <br /><br />
